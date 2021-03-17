@@ -25,6 +25,10 @@ td {
     position: relative;
 }
 
+.fs2em{
+    font-size: 1.66em;
+}
+
 .pt1em {
     padding-top: 1em;
 }
