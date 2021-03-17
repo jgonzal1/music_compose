@@ -7,3 +7,11 @@ function alertInfo() {
         "sounds. By http://grimmdude.com (Garrett Grimm)."
     )
 }
+
+/*
+document.addEventListener('DOMContentLoaded', (domLoaded) => {
+    $(".selectable").click(function() {
+        $(this).select();
+    });
+});
+*/

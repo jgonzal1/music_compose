@@ -8,7 +8,9 @@
     <script src="domRenderer.js"></script>
     <script src="soundjsHandler.js"></script>
     <script src="jquery.min.js"></script>
+    <script src="jqueryEvents.js"></script>
     <script src="audioHandler.js"></script>
+    <script src="keyHandler.js"></script>
 </head>
 
 <body>
@@ -16,35 +18,37 @@
         <tr>
             <td class="container pt1em">
                 <h2>&#129302; MidiPlayerJS</h2><!-- 🤖 -->
-                <p>
-                    <b>Choose a Midi base <i onclick="alertInfo()">&#8505;</i></b><br>
-                    <span id="select-file"><input type="file" onchange="loadFile()" onclick="Player.stop()" /></span>
-                    <span id="loading">Loading soundfont...</span>
-                    <div id="play-bar-bg">
-                        <div id="play-bar"></div>
-                    </div>
-                    <button class="button button-primary" id="play-button" onclick="Player.isPlaying() ? pause() : play();" disabled="disabled">
-                        Play
-                    </button>
-                    <button class="button" onclick="stop()">Stop</button><br>
-                    <span>Tempo: <span id="tempo-display"></span> bpm</span>
-                    <input type="range" onchange="Player.pause();Player.setTempo(this.value);Player.play()" min="50" max="200"><br>
-                    <span>MIDI File Format:</span><span id="file-format-display"></span>
-                    <div id="events" class="well"></div>
-                </p>
+                <b>Choose a Midi base <i onclick="alertInfo()">&#8505;</i></b><br>
+                <span id="select-file"><input type="file" onchange="loadFile()" onclick="Player.stop()" /></span>
+                <span id="loading">Loading soundfont...</span>
+                <div id="play-bar-bg">
+                    <div id="play-bar"></div>
+                </div>
+                <button class="button button-primary" id="play-button" onclick="Player.isPlaying() ? pause() : play();" disabled="disabled">
+                    Play
+                </button>
+                <button class="button" onclick="stop()">Stop</button><br>
+                <span>Tempo: <span id="tempo-display"></span> bpm</span>
+                <div class="background-text">Q</div>
+                <input type="range" onchange="Player.pause();Player.setTempo(this.value);Player.play()" min="50" max="200"><br>
+                <span>MIDI File Format:</span><span id="file-format-display"></span>
+                <div id="events" class="well"></div><br><br><br>
             </td>
             <td>
-                <h2>&#9836; SoundJS (OGG/MP3)</h2> <!-- ♬ -->
+                <h2>&#128251; SoundJS (OGG/MP3)</h2> <!--📻-->
                 <button onclick="playSound();" class="playSound">Play Sound</button>
+                <div class="background-text">W</div>
             </td>
             <td>
                 <h2>&#127926; Any from native JS</h2> <!-- 🎶 -->
                 <button onclick="playAudio();" class="playSound">Play Sound</button>
                 <span id="nameOfSoundPlaceholder"></span>
+                <div class="background-text">E</div>
             </td>
         </tr>
         <tr>
             <td>
+                &#9836;<!-- ♬ -->
                 &#127908; <!--🎤-->
                 &#127911; <!--🎧-->
                 &#127925; <!--🎵-->
@@ -54,16 +58,24 @@
                 &#127930; <!--🎺-->
                 &#127931; <!--🎻-->
                 &#127932; <!--🎼-->
-                &#128251; <!--📻-->
                 &#129345; <!--🥁-->
+                <div class="background-text">A</div>
             </td>
-            <td> </td>
-            <td> </td>
+            <td>
+                <h2>&#128190; Save sound</h2> <!-- 💾 -->
+                <div id="likedSoundsPlaceholder" class="scrollable selectable"></div>
+                <div class="background-text">S</div>
+            </td>
+            <td>
+                <h2>&#128465; Discard sound</h2> <!-- 🗑 -->
+                <div id="discardSoundsPlaceholder" class="scrollable selectable"></div>
+                <div class="background-text">D</div>
+            </td>
         </tr>
         <tr>
-            <td> </td>
-            <td> </td>
-            <td> </td>
+            <td><div class="background-text">Z</div></td>
+            <td><span id="pushedKey"></span><div class="background-text">X</div></td>
+            <td><div class="background-text">C</div></td>
         </tr>
     </table>
     <script src="midiPlayer.js"></script>

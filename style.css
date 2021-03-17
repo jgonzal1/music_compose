@@ -20,12 +20,26 @@ td {
     border-radius: 0.5em;
     min-width: 32vw;
     max-width: 32vw;
-    height: 32vh;
+    height: 31vh;
     text-align: center;
+    position: relative;
 }
 
 .pt1em {
     padding-top: 1em;
+}
+
+.background-text { 
+    margin: 1rem; 
+    position: absolute; 
+    z-index: -1; 
+    font-size: 3em;
+    color: #888888; 
+}
+
+.scrollable {
+    max-height: 3em;
+    overflow-y: scroll;
 }
 
 #play-bar-bg {
