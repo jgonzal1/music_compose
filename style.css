@@ -25,14 +25,6 @@ td {
     position: relative;
 }
 
-.fs2em{
-    font-size: 1.66em;
-}
-
-.pt1em {
-    padding-top: 1em;
-}
-
 .background-text { 
     margin: 1rem; 
     position: absolute; 
@@ -41,9 +33,37 @@ td {
     color: #888888; 
 }
 
+.fs2em {
+    font-size: 1.66em;
+}
+
+.lsw {
+    letter-spacing: 0.25em;
+}
+
+.pt1em {
+    padding-top: 1em;
+}
+
 .scrollable {
     max-height: 3em;
     overflow-y: scroll;
+}
+
+.text-left {
+    text-align: left;
+}
+
+#canvas {
+    border: 1px solid #AAAAAA;
+    border-radius: 0.5em;
+    display: inline;
+    height: 150px;
+    position: absolute;
+    left: 500px;
+    top: 35px;
+    width: 650px;
+    z-index: 2;
 }
 
 #play-bar-bg {
