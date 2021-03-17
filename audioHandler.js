@@ -223,10 +223,6 @@ const dnbSounds = [
     "Wind/MINOS7.wav"
 ];
 
-/*
-var str = "HELLO WORLD";
-var n = str.charCodeAt(0);
-*/
 
 function playAudio() {
     const r = Math.floor(Math.random()*dnbSounds.length);
