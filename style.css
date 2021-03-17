@@ -1,5 +1,5 @@
 body {
-    background: #f8f8f9;
+    background: #DDDDDD;
     text-align: center;
 }
 
@@ -8,7 +8,7 @@ h2,
 h3,
 h4 {
     font-family: 'Bree Serif', serif;
-    text-shadow: 2px 3px 1px #ccc;
+    text-shadow: 2px 3px 1px #AAAAAA;
 }
 
 p {
@@ -16,7 +16,7 @@ p {
 }
 
 td {
-    border: 2px solid #DDDDDD;
+    border: 2px solid #AAAAAA;
     border-radius: 0.5em;
     min-width: 32vw;
     max-width: 32vw;
@@ -29,14 +29,14 @@ td {
 }
 
 #play-bar-bg {
-    border: 1px solid #ccc;
+    border: 1px solid #AAAAAA;
     margin-bottom: 12px;
-    background: #f7f7f7;
+    /*background: #F7F7F7;*/
 }
 
 #play-bar {
     height: 20px;
-    background: #33C3F0;
+    background: #0075FF;
     width: 0%;
 }
 

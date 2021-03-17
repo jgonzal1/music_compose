@@ -4,6 +4,16 @@ var AudioContext = window.AudioContext || window.webkitAudioContext || false;
 var ac = new AudioContext || new webkitAudioContext;
 var eventsDiv = document.getElementById('events');
 
+const chords = [
+    "1_C",    "2_C",  "3_C",  "4_C",   "5_C",   "6_C",   "7_C",   "8_C",   "9_C",  "10_C",
+    "11_C",  "12_C", "13_C", "14_C", "15_CM", "16_CM", "17_CM",  "18_D",  "19_D",  "20_D",
+    "21_D",  "22_D", "23_D", "24_D",  "25_D",  "26_D",  "27_D",  "28_D",  "29_D", "30_DM",
+    "31_DM", "32_F", "33_F", "34_F",  "35_F",  "36_F",  "37_F", "38_FM", "39_FM",  "40_G",
+    "41_G",  "42_G", "43_G", "44_A",  "45_A",  "46_A",  "47_A",  "48_A",  "49_B",  "50_B",
+    "51_B"
+]; 
+
+
 var changeTempo = function(tempo) {
 	Player.tempo = tempo;
 }

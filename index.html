@@ -8,13 +8,14 @@
     <script src="domRenderer.js"></script>
     <script src="soundjsHandler.js"></script>
     <script src="jquery.min.js"></script>
+    <script src="audioHandler.js"></script>
 </head>
 
 <body>
     <table>
         <tr>
             <td class="container pt1em">
-                <h2>&#129302; MidiPlayerJS</h2>
+                <h2>&#129302; MidiPlayerJS</h2><!-- 🤖 -->
                 <p>
                     <b>Choose a Midi base <i onclick="alertInfo()">&#8505;</i></b><br>
                     <span id="select-file"><input type="file" onchange="loadFile()" onclick="Player.stop()" /></span>
@@ -33,14 +34,29 @@
                 </p>
             </td>
             <td>
-                <h2>&#9836; SoundJS</h2>
-                <input type="file" onchange="loadSound()" onclick="playSound()" />
+                <h2>&#9836; SoundJS (OGG/MP3)</h2> <!-- ♬ -->
                 <button onclick="playSound();" class="playSound">Play Sound</button>
             </td>
-            <td> </td>
+            <td>
+                <h2>&#127926; Any from native JS</h2> <!-- 🎶 -->
+                <button onclick="playAudio();" class="playSound">Play Sound</button>
+                <span id="nameOfSoundPlaceholder"></span>
+            </td>
         </tr>
         <tr>
-            <td> </td>
+            <td>
+                &#127908; <!--🎤-->
+                &#127911; <!--🎧-->
+                &#127925; <!--🎵-->
+                &#127927; <!--🎷-->
+                &#127928; <!--🎸-->
+                &#127929; <!--🎹-->
+                &#127930; <!--🎺-->
+                &#127931; <!--🎻-->
+                &#127932; <!--🎼-->
+                &#128251; <!--📻-->
+                &#129345; <!--🥁-->
+            </td>
             <td> </td>
             <td> </td>
         </tr>
