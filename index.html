@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>DJA Music generator</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="soundjs.min.js"></script>
+    <script src="domRenderer.js"></script>
+    <script src="soundjsHandler.js"></script>
+    <script src="jquery.min.js"></script>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td class="container pt1em">
+                <h2>&#129302; MidiPlayerJS</h2>
+                <p>
+                    <b>Choose a Midi base <i onclick="alertInfo()">&#8505;</i></b><br>
+                    <span id="select-file"><input type="file" onchange="loadFile()" onclick="Player.stop()" /></span>
+                    <span id="loading">Loading soundfont...</span>
+                    <div id="play-bar-bg">
+                        <div id="play-bar"></div>
+                    </div>
+                    <button class="button button-primary" id="play-button" onclick="Player.isPlaying() ? pause() : play();" disabled="disabled">
+                        Play
+                    </button>
+                    <button class="button" onclick="stop()">Stop</button><br>
+                    <span>Tempo: <span id="tempo-display"></span> bpm</span>
+                    <input type="range" onchange="Player.pause();Player.setTempo(this.value);Player.play()" min="50" max="200"><br>
+                    <span>MIDI File Format:</span><span id="file-format-display"></span>
+                    <div id="events" class="well"></div>
+                </p>
+            </td>
+            <td>
+                <h2>&#9836; SoundJS</h2>
+                <input type="file" onchange="loadSound()" onclick="playSound()" />
+                <button onclick="playSound();" class="playSound">Play Sound</button>
+            </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+    </table>
+    <script src="midiPlayer.js"></script>
+    <script src="soundfontPlayer.min.js"></script>
+    <script src="midiPlayerApp.js"></script>
+</body>
+
+</html>

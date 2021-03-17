@@ -1,0 +1,45 @@
+body {
+    background: #f8f8f9;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Bree Serif', serif;
+    text-shadow: 2px 3px 1px #ccc;
+}
+
+p {
+    margin-bottom: 0em !important;
+}
+
+td {
+    border: 2px solid #DDDDDD;
+    border-radius: 0.5em;
+    min-width: 32vw;
+    max-width: 32vw;
+    height: 32vh;
+    text-align: center;
+}
+
+.pt1em {
+    padding-top: 1em;
+}
+
+#play-bar-bg {
+    border: 1px solid #ccc;
+    margin-bottom: 12px;
+    background: #f7f7f7;
+}
+
+#play-bar {
+    height: 20px;
+    background: #33C3F0;
+    width: 0%;
+}
+
+#select-file {
+    display: none;
+}
