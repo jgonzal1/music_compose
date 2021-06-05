@@ -7,7 +7,7 @@
 <table><!-- PROJECT INFO -->
   <tbody><tr><td>
     <a href="https://github.com/jgonzal1/music_compose">
-      <img src="style/main_icon/favicon.png" alt="Logo" style="width:10em">
+      <span style="width:10em">🎵</span>
     </a>
   </td><td>
     <h3>HTML to play music and sounds</h3>
