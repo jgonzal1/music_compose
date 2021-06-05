@@ -15,8 +15,39 @@
 
 <body>
     <table>
+        <tr class="mh30">
+            <td colspan="10">
+                <fieldset>
+                    <legend>Last playing</legend>
+                    <span id="pushedKey"></span>
+                    <span id="nameOfSoundPlaceholder"></span>
+                </fieldset>
+                <fieldset>
+                    <legend>Tracks</legend>
+                    <span id="audioPlaceholder"></span>
+                </fieldset>
+                <canvas id="canvas"></canvas>
+            </td>
+        </tr>
         <tr>
-            <td class="container pt1em">
+            <td><div class="background-text">Q</div></td>
+            <td>&#127930;<!--🎺--><div class="background-text">W</div></td>
+            <td><div class="background-text">E</div></td>
+            <td>
+                <h2>&#127926; Any from native JS</h2> <!-- 🎶 -->
+                <div class="background-text">R</div>
+            </td>
+            <td>
+                <div class="background-text">T</div>
+            </td>
+            <td><div class="background-text">Y</div></td>
+            <td><div class="background-text">U</div></td>
+            <td><div class="background-text">I</div></td>
+            <td>
+                <h2>&#128251; SoundJS (OGG/MP3)</h2> <!--📻-->
+                <div class="background-text">O</div>
+            </td>
+            <td class="container pt1em mw310">
                 <h2>&#129302; MidiPlayerJS</h2><!-- 🤖 -->
                 <b>Choose a Midi base <i onclick="alertInfo()">&#8505;</i></b><br>
                 <span id="select-file"><input type="file" onchange="loadFile()" onclick="Player.stop()" /></span>
@@ -29,49 +60,44 @@
                 </button>
                 <button class="button" onclick="stop()">Stop</button><br>
                 <span>Tempo: <span id="tempo-display"></span> bpm</span>
-                <div class="background-text">W</div>
-                <input type="range" onchange="Player.pause();Player.setTempo(this.value);Player.play()" min="50" max="200"><br>
+                <div class="background-text">P / <sup>+</sup><sub>-</sub></div>
+                <input type="range" id="bpm" onchange="Player.pause();Player.setTempo(this.value);Player.play()" min="50" max="200"><br>
                 <span>MIDI File Format:</span><span id="file-format-display"></span>
                 <div id="events" class="well"></div><br><br><br>
             </td>
-            <td>
-                <h2>&#128251; SoundJS (OGG/MP3)</h2> <!--📻-->
-                <button onclick="playSound();" class="playSound">Play Sound</button>
-                <div class="background-text">E</div>
-            </td>
-            <td>
-                <h2>&#127926; Any from native JS</h2> <!-- 🎶 -->
-                <button onclick="playAudio();" class="playSound">Play Sound</button>
-                <span id="nameOfSoundPlaceholder"></span>
-                <div class="background-text">R</div>
-            </td>
         </tr>
         <tr>
-            <td>
-                <h2>&#128190; Save sound</h2> <!-- 💾 -->
+            <td>&#127932;<!--🎼--><div class="background-text">A</div></td>
+            <td colspan="2">
+                <h2>&#128190; Like sound <i onclick="clearLastLiked()">&#8630;</i></h2> <!-- 💾 -->
                 <div id="likedSoundsPlaceholder" class="scrollable selectable"></div>
                 <div class="background-text">S</div>
             </td>
             <td>
-                <h2><span class="fs2em">&#128465;</span> Discard sound</h2> <!-- 🗑 -->
+                <h2><span class="fs2em">&#128465;</span> Discard sound <i onclick="clearLastDiscarded()">&#8630;</i></h2> <!-- 🗑 -->
                 <div id="discardSoundsPlaceholder" class="scrollable selectable"></div>
                 <div class="background-text">D</div>
             </td>
             <td>
-                <span class="fs2em" id="pushedKey"></span>
                 <div class="background-text">F</div>
             </td>
+            <td><div class="background-text">G</div></td>
+            <td><div class="background-text">H</div></td>
+            <td><div class="background-text">J</div></td>
+            <td>&#127929;<!--🎹--><div class="background-text">K</div></td>
+            <td>&#10160;<!--➰--><div class="background-text">L</div></td>
         </tr>
-        <tr>
-            <td colspan="3" class="text-left"><span class="fs2em">&nbsp;
-                &#127908; <!--🎤--> &#127911; <!--🎧--> &#127925; <!--🎵-->
-                &#127927; <!--🎷--> &#127928; <!--🎸--> &#127929; <!--🎹-->
-                &#127930; <!--🎺--> &#127931; <!--🎻--> &#127932; <!--🎼-->
-                &#129345; <!--🥁-->
-                </span>
-                <canvas id="canvas"></canvas>
-                <div class="background-text lsw">&lt;ZXCVBNM,.</div>
-            </td>
+        <tr class="ch10vh">
+            <td>&#127908; <!--🎤--><div class="background-text">&lt;</div></td>
+            <td>&#127911;<!--🎧--><div class="background-text">Z</div></td>
+            <td><div class="background-text">X</div></td>
+            <td><div class="background-text">C</div></td>
+            <td>&#127927;<!--🎷--><div class="background-text">V</div></td>
+            <td>&#127928;<!--🎸--><div class="background-text">B</div></td>
+            <td><div class="background-text">N</div></td>
+            <td>&#127925;<!--🎵--><div class="background-text">M</div></td>
+            <td>&#127931;<!--🎻--><div class="background-text">,</div></td>
+            <td>&#129345;<!--🥁--><div class="background-text">.</div></td>
         </tr>
     </table>
     <script src="libs/midiPlayer.js"></script>

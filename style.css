@@ -3,10 +3,17 @@ body {
     text-align: center;
 }
 
+fieldset {
+    display: inline;
+    border: 1px solid #AAAAAA;
+    border-radius: 0.2em;
+}
+
 h1,
 h2,
 h3,
 h4 {
+    margin-top: 0em;
     font-family: 'Bree Serif', serif;
     text-shadow: 2px 3px 1px #AAAAAA;
 }
@@ -18,9 +25,9 @@ p {
 td {
     border: 2px solid #AAAAAA;
     border-radius: 0.5em;
-    min-width: 32vw;
-    max-width: 32vw;
-    height: 31vh;
+    min-width: 80px;
+    max-width: 24vw;
+    height: 27vh;
     text-align: center;
     position: relative;
 }
@@ -31,6 +38,11 @@ td {
     z-index: -1; 
     font-size: 3em;
     color: #888888; 
+    bottom: -0.4em;
+}
+
+.ch10vh>td {
+    height: 10vh;
 }
 
 .fs2em {
@@ -39,6 +51,14 @@ td {
 
 .lsw {
     letter-spacing: 0.25em;
+}
+
+.mh30 {
+    min-height: 30vh !important;
+}
+
+.mw310 {
+    min-width:310px;
 }
 
 .pt1em {
@@ -58,11 +78,11 @@ td {
     border: 1px solid #AAAAAA;
     border-radius: 0.5em;
     display: inline;
-    height: 150px;
+    height: 85%;
     position: absolute;
-    left: 500px;
-    top: 35px;
-    width: 650px;
+    left: 1em;
+    top: 1em;
+    width: 97%;
     z-index: 2;
 }
 
