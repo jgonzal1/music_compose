@@ -1,0 +1,84 @@
+[{
+    "title": "jgb",
+    "bpmStep": 50,
+    "bpmRange": [300,
+        400
+    ],
+    "playbackMode": "stop",
+    "playMode": "constant",
+    "stepsNum": 10,
+    "exerciseTime": 600,
+    "bpmStepDropdownOpen": false,
+    "byTimeInterval": 5,
+    "byBarInterval": 2,
+    "constantBpmSlider": 300,
+    "track": [
+        [1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        [0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+        ],
+        [1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+        ]
+    ],
+    "timeSignature": 16,
+    "samples": [{
+            "file": "Kick.wav",
+            "instrumentKey": "basicdrumkit"
+        },
+        {
+            "file": "Snare.wav",
+            "instrumentKey": "basicdrumkit"
+        },
+        {
+            "file": "ClosedHat.wav",
+            "instrumentKey": "basicdrumkit"
+        }
+    ],
+    "presetId": 1,
+    "savedDtm": "2020-12-21T19:36:44.478Z"
+}]
