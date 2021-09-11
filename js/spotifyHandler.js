@@ -1,4 +1,7 @@
-
+if (typeof(document) === "undefined") {
+  // @ts-ignore
+  import { clientId, clientSecret, playlistsBearer } from "./apiKeys";
+}
 const playlist_ids = [
   "2Er6xZyUuBjJ0EampHFXAi" // neofolk, 5
   /*
