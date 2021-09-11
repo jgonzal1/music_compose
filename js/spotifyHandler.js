@@ -1,18 +1,4 @@
-const clientId = '37f7d88a10a045ca879d9ee501c1b7db';
-const clientSecret = '92d95ee6d9bc4ca2a7cfb4fda7d464f6';
-const oauthToken = 'BQAzm2l04_gBp8LqHTTGJGUCASMNjh';
-const oldPlaylistsBearer = '' +
-  'BQCbPfZ-nNT_ARO2H0q_7MGrYddGKDg0URERFI4ifVRjcFEu9y' +
-  '29O6hl0TflWMHqPfRBRbzYAhyXvvIbZoCIYFBJfQCtBOXm7Tse' +
-  'RzD7Yq9wJROq4QhXGaDGFfAHgWm9LTfvg-ZrysmOyJ8jTmSmQP' +
-  'vvaLva_-uAjyz-Li-ChdNiTQJr0gD5o8tSxYJ_9TS8NnzP53jS2g'
-  ;
-const playlistsBearer = '' +
-  'BQAzm2l04_gBp8LqHTTGJGUCASMNjh-Z-NUT02ZITLU3y_ghq8' +
-  'BHX4sZUTPUyaG5I1aYYbsuOnR8XqHpMnvUDTubCD8GXNrvJDxW' +
-  'eyAquyTjnHNuhBKNvxFqTgzKLgILmEw4WT8iwjjWfdXqeaqinv' +
-  'r34zw5yHyOIhaO8aYb9Ff6nhzNZrUnzIcMFU6AJs-Hh4adsklL' +
-  'u4hfte3wbOpp_yFb1w';
+
 const playlist_ids = [
   "2Er6xZyUuBjJ0EampHFXAi" // neofolk, 5
   /*
