@@ -17,14 +17,14 @@
     "img": "https://i.scdn.co/image/ab67706c0000bebb77615eb9bfb3bc37735d334e",
     "name": "chill or ethereal",
     "owner": "darkjavier",
-    "tracks_number": 100,
+    "tracks_number": 135,
     "tracks_url": "https://api.spotify.com/v1/playlists/0OoH9VKKOkMmFVShSdGI5I/tracks"
   },
   {
     "img": "https://mosaic.scdn.co/640/ab67616d0000b273054969e2671851153d9d87ddab67616d0000b2736f3ddfd87f7be100c7270979ab67616d0000b273a3e50e258b8147f137322f7aab67616d0000b273d188d63fa2f189c9156e5beb",
     "name": "ethereal not mainstream",
     "owner": "darkjavier",
-    "tracks_number": 365,
+    "tracks_number": 299,
     "tracks_url": "https://api.spotify.com/v1/playlists/1aCfIbV6K0HH7akPrjTNd3/tracks"
   },
   {
@@ -280,6 +280,286 @@
     "tracks_url": "https://api.spotify.com/v1/playlists/2hQAt2YURJrIKazMgeeuKu/tracks"
   },
   {
+    "img": "https://i.scdn.co/image/ab67706c0000bebbc3bafabc481049b67b40eb43",
+    "name": "dub",
+    "owner": "darkjavier",
+    "tracks_number": 26,
+    "tracks_url": "https://api.spotify.com/v1/playlists/246zLjoIEAPggNphqvARTR/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebb280ee3eac746807a6d691e38",
+    "name": "electro swing",
+    "owner": "darkjavier",
+    "tracks_number": 15,
+    "tracks_url": "https://api.spotify.com/v1/playlists/7gK6OgvfAShw2zpbq20uob/tracks"
+  },
+  {
+    "img": "https://mosaic.scdn.co/640/ab67616d0000b27323cc0f0a925845a3de4aca38ab67616d0000b2734ccb64f022a53d3e8ec84a20ab67616d0000b273537ebc1940f248ab6f1b42f3ab67616d0000b273607e75ceefaee21e2bb5b359",
+    "name": "funk classic and electrofunk",
+    "owner": "darkjavier",
+    "tracks_number": 20,
+    "tracks_url": "https://api.spotify.com/v1/playlists/3rwcuTwNyzGSEm9JgVykXM/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebbda2288e79489aba385627ea7",
+    "name": "instrumental progressive smooth jazz",
+    "owner": "darkjavier",
+    "tracks_number": 42,
+    "tracks_url": "https://api.spotify.com/v1/playlists/1N7PVlMupNg0z36K8oMzEh/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebb643ddda81b2a3c95be0bfb5a",
+    "name": "lounge & fussion",
+    "owner": "darkjavier",
+    "tracks_number": 129,
+    "tracks_url": "https://api.spotify.com/v1/playlists/3NDootlTJJtUk2CE5nrJIP/tracks"
+  },
+  {
+    "img": "https://mosaic.scdn.co/640/ab67616d0000b273019215171af979132308db7fab67616d0000b27309268fcf99197e5289a3870aab67616d0000b273742f96515448d100544e8bf9ab67616d0000b273b5a601d67a0225f212e7fec4",
+    "name": "jazz fusion @ 20170519",
+    "owner": "darkjavier",
+    "tracks_number": 94,
+    "tracks_url": "https://api.spotify.com/v1/playlists/0p1A1zk9KpQshtx0eo6cLK/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebb877abaff3f764b4a00caa9f0",
+    "name": "jazz and others (from #70)",
+    "owner": "darkjavier",
+    "tracks_number": 97,
+    "tracks_url": "https://api.spotify.com/v1/playlists/4PCTXMZ22Iup2ztEQO6YRX/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebbd45b9f9dbee8238daec13581",
+    "name": "samba",
+    "owner": "darkjavier",
+    "tracks_number": 2,
+    "tracks_url": "https://api.spotify.com/v1/playlists/4xRylvSqmE2GIzKCPpUINR/tracks"
+  },
+  {
+    "img": "https://mosaic.scdn.co/640/ab67616d0000b2731b712c9fd9f1df1f923460e9ab67616d0000b27349746ab0b7b8ce3984a3e2c9ab67616d0000b273b431545ded22c02473398001ab67616d0000b273e1a640351b810ec7f3cf3904",
+    "name": "swing",
+    "owner": "darkjavier",
+    "tracks_number": 6,
+    "tracks_url": "https://api.spotify.com/v1/playlists/3EMjGn7GdAzNoKwMEIj8PG/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebb4b55c3cc914360bc2bc85a9a",
+    "name": "trip-hop",
+    "owner": "darkjavier",
+    "tracks_number": 23,
+    "tracks_url": "https://api.spotify.com/v1/playlists/4fYMPKJmZLlwwDDn3o4DCh/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebb7dd1d82446fa29ead9e37973",
+    "name": "amor",
+    "owner": "darkjavier",
+    "tracks_number": 103,
+    "tracks_url": "https://api.spotify.com/v1/playlists/1TeDuy22c4LK1JFfWu0qqc/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebb87d11708f64e2aa45e4f1779",
+    "name": "bachata",
+    "owner": "darkjavier",
+    "tracks_number": 20,
+    "tracks_url": "https://api.spotify.com/v1/playlists/1GGZiLw5ikiuI53SUpEpE3/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebb03b7d597cf1f02a9fc118ddd",
+    "name": "kizomba",
+    "owner": "darkjavier",
+    "tracks_number": 19,
+    "tracks_url": "https://api.spotify.com/v1/playlists/7EWSrxZKDblyqJNsGPdcE2/tracks"
+  },
+  {
+    "img": "https://mosaic.scdn.co/640/ab67616d0000b2732974b2a5a395804578c570adab67616d0000b2734066772fe294bbb68c077827ab67616d0000b273ab8cee2ef589267f4c592aa9ab67616d0000b273e97a54325c43380d7ed4a368",
+    "name": "juntaíllos y otros gén. bail",
+    "owner": "darkjavier",
+    "tracks_number": 13,
+    "tracks_url": "https://api.spotify.com/v1/playlists/0Rl2z73VCbedUqlUdfMYLl/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67616d0000b273e529b070f28a45d32296fbad",
+    "name": "Abuela",
+    "owner": "darkjavier",
+    "tracks_number": 3,
+    "tracks_url": "https://api.spotify.com/v1/playlists/0jRAjK1IPy8vz3YeVNdshV/tracks"
+  },
+  {
+    "img": "https://mosaic.scdn.co/640/ab67616d0000b2732ada6ca4972c0334b0445195ab67616d0000b273639389220908e25a9d18d80fab67616d0000b2736f06920faa36bccb3498981cab67616d0000b27395e7fcefc266653d33ef1bac",
+    "name": "Abuelo",
+    "owner": "darkjavier",
+    "tracks_number": 7,
+    "tracks_url": "https://api.spotify.com/v1/playlists/17YgqGi4HoEeUmr0i46MtI/tracks"
+  },
+  {
+    "img": "https://mosaic.scdn.co/640/ab67616d0000b273160074c4d30216702688437cab67616d0000b2734246e3158421f5abb75abc4fab67616d0000b27383f859512262378f2aa50a22ab67616d0000b2739da7b30d3f36b6599cb74667",
+    "name": "Belén",
+    "owner": "darkjavier",
+    "tracks_number": 36,
+    "tracks_url": "https://api.spotify.com/v1/playlists/7BCPxG1lV5OOj9AjqJbHwG/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebbc646eb077fb1ccc0e5879b87",
+    "name": "dream pop",
+    "owner": "darkjavier",
+    "tracks_number": 28,
+    "tracks_url": "https://api.spotify.com/v1/playlists/36finQ0m3T8BSJEG5evvts/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebb3ebb682ef2ace22576d6bcfa",
+    "name": "indie",
+    "owner": "darkjavier",
+    "tracks_number": 99,
+    "tracks_url": "https://api.spotify.com/v1/playlists/2gX78AZu9KQ9w59YEziRJP/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebbc839eaa3da72b705dad9f180",
+    "name": "pop",
+    "owner": "darkjavier",
+    "tracks_number": 227,
+    "tracks_url": "https://api.spotify.com/v1/playlists/0DGusKA7sgydJdLzsQ5LX2/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebbb003fb317490c7292d9f21e9",
+    "name": "sg sw and ballads",
+    "owner": "darkjavier",
+    "tracks_number": 285,
+    "tracks_url": "https://api.spotify.com/v1/playlists/05a3A3cxTTsA5EGaeH9d84/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebbee187ecc003be1e10bcdf14d",
+    "name": "timelapse",
+    "owner": "darkjavier",
+    "tracks_number": 61,
+    "tracks_url": "https://api.spotify.com/v1/playlists/3whsc6dyGxN7NVyC03T4Ym/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebb7240a9c8e70ab524f586af46",
+    "name": "christmas",
+    "owner": "darkjavier",
+    "tracks_number": 119,
+    "tracks_url": "https://api.spotify.com/v1/playlists/1GhdMcrTHKa5Cr5jg7VZVF/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebbd3f65ef015c1f7622559cfad",
+    "name": "dark ambient and fear",
+    "owner": "darkjavier",
+    "tracks_number": 100,
+    "tracks_url": "https://api.spotify.com/v1/playlists/55YmcZmEGMizDOqDW1MT1x/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebb0a842d6aa378801ab71fbb6d",
+    "name": "euforia",
+    "owner": "darkjavier",
+    "tracks_number": 100,
+    "tracks_url": "https://api.spotify.com/v1/playlists/2t9dCmNfRTlwlw6OVpn79a/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebb88b00bef43f5560507f3742f",
+    "name": "glory with lyrics",
+    "owner": "darkjavier",
+    "tracks_number": 104,
+    "tracks_url": "https://api.spotify.com/v1/playlists/7bmuxrTn8HFmZtf6k02I3K/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebb07d0d28aae2b2d9f0f963b69",
+    "name": "halloween",
+    "owner": "darkjavier",
+    "tracks_number": 32,
+    "tracks_url": "https://api.spotify.com/v1/playlists/7c8QlR8DDkS9C8RMyptjV9/tracks"
+  },
+  {
+    "img": "https://mosaic.scdn.co/640/ab67616d0000b27323c41228eac63dcfba76a187ab67616d0000b27336914fb14694f8c9d1ce1d9bab67616d0000b2733a0246439b2607a5d1ae0ebaab67616d0000b27350e3769e5532e86370c4527d",
+    "name": "intros to reuse",
+    "owner": "darkjavier",
+    "tracks_number": 80,
+    "tracks_url": "https://api.spotify.com/v1/playlists/7C4SrESDdkXjkEptii8uLI/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebb77cad27e8d7f5daa01b5b23a",
+    "name": "other",
+    "owner": "darkjavier",
+    "tracks_number": 75,
+    "tracks_url": "https://api.spotify.com/v1/playlists/3gNVyIKGAs73MtGIJxVaZS/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebb10fa82f313a7dea1ae2f55e0",
+    "name": "sadness",
+    "owner": "darkjavier",
+    "tracks_number": 96,
+    "tracks_url": "https://api.spotify.com/v1/playlists/6GI99T5H3jpQEaUWQ2vmeD/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebb84f061d73d0b16bed7150e53",
+    "name": "snow",
+    "owner": "darkjavier",
+    "tracks_number": 22,
+    "tracks_url": "https://api.spotify.com/v1/playlists/2DuVEZ4TDKUM3NmFKNEUKz/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebbe497b4d2588b629c7bb86741",
+    "name": "storm",
+    "owner": "darkjavier",
+    "tracks_number": 89,
+    "tracks_url": "https://api.spotify.com/v1/playlists/2rdaFJVoePT8Kvy1CZHroA/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebb1a3f90f59316ca1cd50e1beb",
+    "name": "workout",
+    "owner": "darkjavier",
+    "tracks_number": 151,
+    "tracks_url": "https://api.spotify.com/v1/playlists/2qM0uxKXly5lPt2Oz9OtY4/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebb35e3ba787a5673f79b5e5501",
+    "name": "rap",
+    "owner": "darkjavier",
+    "tracks_number": 141,
+    "tracks_url": "https://api.spotify.com/v1/playlists/2YPgwLHGvvMe24mpff2zBW/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebb38463e7fb59d6b541113b9f6",
+    "name": "reggae",
+    "owner": "darkjavier",
+    "tracks_number": 96,
+    "tracks_url": "https://api.spotify.com/v1/playlists/06mtEUIM4CpBqF4oElDJpW/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67616d0000b27397abfcc526e4e49216deccc2",
+    "name": "Austrian music",
+    "owner": "darkjavier",
+    "tracks_number": 2,
+    "tracks_url": "https://api.spotify.com/v1/playlists/4Dwck10XLcVXo3UNJZItJ6/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67616d0000b2738401cfb3e1a85f452aa994fc",
+    "name": "Belgian music",
+    "owner": "darkjavier",
+    "tracks_number": 3,
+    "tracks_url": "https://api.spotify.com/v1/playlists/2bv7kKnsGORaL6HzBvursW/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67616d0000b273ddd9f708bafa77f9963f37ac",
+    "name": "Bulgarian music",
+    "owner": "darkjavier",
+    "tracks_number": 2,
+    "tracks_url": "https://api.spotify.com/v1/playlists/4EceU0eUPVtT3pUjfEfGfi/tracks"
+  },
+  {
+    "img": "https://mosaic.scdn.co/640/ab67616d0000b2730bd5e7cce9765c2ef519424eab67616d0000b2738a7c39e93f39aa0a8c059f30ab67616d0000b2739bb818dd9e889292a79f4f1eab67616d0000b273cf5f9eaa0d3a164305c35b49",
+    "name": "BR/PT music",
+    "owner": "darkjavier",
+    "tracks_number": 7,
+    "tracks_url": "https://api.spotify.com/v1/playlists/2ef7s32Nw3IofvIxUDiCMD/tracks"
+  },
+  {
+    "img": "https://mosaic.scdn.co/640/ab67616d0000b2732fd6a63f574450a8f928936aab67616d0000b2733863ea4ccc68fa2c3b9fc551ab67616d0000b273c8b35a7ebf805121d472ab3eab67616d0000b273d1bf711267281458ad505059",
+    "name": "Danish music",
+    "owner": "darkjavier",
+    "tracks_number": 136,
+    "tracks_url": "https://api.spotify.com/v1/playlists/5TmJWKtvSkouhuyF6NoOM2/tracks"
+  },
+  {
     "img": "https://mosaic.scdn.co/640/ab67616d0000b2730b72229ae80c5a460d082185ab67616d0000b27342e8d214bcb46ac923dc9f1bab67616d0000b273a99428927feffa522f2f9225ab67616d0000b273e91b9569227e3149101b9532",
     "name": "Eastern EU music",
     "owner": "darkjavier",
@@ -290,7 +570,7 @@
     "img": "https://mosaic.scdn.co/640/ab67616d0000b27302a797cd135784c63b27a71eab67616d0000b27324c7da4e61fbda673dfae76aab67616d0000b273440b3fc637f1860b4abbc2afab67616d0000b273bc65570f777cbdd9bca09704",
     "name": "Finnish music",
     "owner": "darkjavier",
-    "tracks_number": 305,
+    "tracks_number": 222,
     "tracks_url": "https://api.spotify.com/v1/playlists/588ZnCsRPpMJsWJvuBHBT9/tracks"
   },
   {
@@ -360,7 +640,7 @@
     "img": "https://mosaic.scdn.co/640/ab67616d0000b27301f9ebe81351332a5a406ba1ab67616d0000b2736ab08d5250222cee7d9278f4ab67616d0000b2738212623ac0d36f507454eb6eab67616d0000b273c511a331d5fde2ced3105361",
     "name": "Spanish music",
     "owner": "darkjavier",
-    "tracks_number": 316,
+    "tracks_number": 144,
     "tracks_url": "https://api.spotify.com/v1/playlists/2l2TG8WBvCEjaMyVJm2A1k/tracks"
   },
   {
@@ -451,7 +731,7 @@
     "img": "https://i.scdn.co/image/ab67706c0000bebb234bd839085856d4278e5aaa",
     "name": "progressive rock",
     "owner": "darkjavier",
-    "tracks_number": 308,
+    "tracks_number": 289,
     "tracks_url": "https://api.spotify.com/v1/playlists/4TOAesAQqrMS4U2NuUi1RT/tracks"
   },
   {
@@ -479,7 +759,7 @@
     "img": "https://i.scdn.co/image/ab67706c0000bebbf051588b976c106743de24ee",
     "name": "symphonic metal",
     "owner": "darkjavier",
-    "tracks_number": 311,
+    "tracks_number": 201,
     "tracks_url": "https://api.spotify.com/v1/playlists/0ITx338BH3GM8VGYXPxyy2/tracks"
   },
   {
@@ -609,15 +889,15 @@
     "tracks_url": "https://api.spotify.com/v1/playlists/7cg98KvzOU3fBSo52Hvwx0/tracks"
   },
   {
-    "img": "https://newjams-images.scdn.co/image/ab676477000033ad/dt/v3/discover-weekly/-BAtfF5Bl_ZBOhFx-qiUCK7ORgA3IHW2h5g2d8mAWRdmniBhtfCJz2yrRVmvFGmEcw4NdWnttTQ9RpMRTehd69KQPlKOFP6zBVUcEFOdM6DOkCUNLtD5P31w27jMovR8Ej6_PilNL21IwOcI0_Y5AJ0MlGwPZs5sJDqTX8P7iqHEPWDsraoxRh6fNT0VBfl2TTJ0I6FEtO5eNunUcPBin2_Hip8Jtmucl_FsMMNMIw-0dxa4J1XCMrb8GHAguYie30-FnYsMhFgM3Q-LcDZA-oekgSrDhhZestpcmuA27llhhtb2_B2s-oawYc1uw2p50kPpLKtC3X8PIQXUSbQEUYn6i5WaxFstTUf37Ia5naInEFlv8GS8PE9I48n5Fvb873AVpgrpSRuoxY3Ucn-4yC2X5M_hi-G8eT02_Gye_58=/NDQ6MzM6MzJUMzItMTAtMg==",
+    "img": "https://newjams-images.scdn.co/image/ab676477000033ad/dt/v3/discover-weekly/HW5Et4Qh9TlLz6S9szTq-QrHTH9t8pOHFafpCtaja7cV4klmkiEeVBPnCZe6IFapE8GjsUlYF8lZHHUZOrvs6jxG_ACJYCt-Bvv1XkBssyUUbn6YjrpdvEBWlpKfEtV28hi23Ixx8p_EcMsi4RRt6GA9_PwRN8GFCx7CG37JdKmbCTJLXtC4zSPZW_fAVpPvhS4p-Bf5yr5flDu4xsrx3iaejiNxkyh6oM2cG3RcqHedjUNZDoo3CCWR3nsRoqdwoBn1N0o93cQkomNz_EZkGixV8IlVZlppXqzhk9aYiOq3lk7SyuG7Hk78DrGFBs9q3AZahjfcUnPPY86xrDt_m2sO4Cu5uEcuL9_-MK9gpgmZb0GUPN6ubEwqjD1VK_DxOjTT-2pOze-j_C-Cy764sHr9FwO1M4vBNzK2VH04_cc=/NDQ6NzQ6MzJUMzItMTAtMg==",
     "name": "Descubrimiento semanal",
     "owner": "spotify",
     "tracks_number": 30,
     "tracks_url": "https://api.spotify.com/v1/playlists/37i9dQZEVXcK7y3h1FCkQe/tracks"
   },
   {
-    "img": "https://newjams-images.scdn.co/v3/release-radar/ab6761610000e5ebefeb80bd23b299d413c04d8f/en/large",
-    "name": "Release Radar",
+    "img": "https://newjams-images.scdn.co/v3/release-radar/ab6761610000e5ebefeb80bd23b299d413c04d8f/es/large",
+    "name": "Radar de Novedades",
     "owner": "spotify",
     "tracks_number": 30,
     "tracks_url": "https://api.spotify.com/v1/playlists/37i9dQZEVXbwjjk3st35Mj/tracks"
@@ -1399,6 +1679,144 @@
     "tracks_number": 133,
     "tracks_url": "https://api.spotify.com/v1/playlists/4W2kSk1mp5sSE9aTkIkqWH/tracks"
   },
-  {"img": "","name":"Djenty","owner": "","tracks_number": 136,"tracks_url": ""},
-  {"img":"https://i.scdn.co/image/ab67706c0000bebba696cb014954236c0dcb73ae","name":"Djenty","owner":"bornofosiris","tracks_number":136,"tracks_url":"https://api.spotify.com/v1/playlists/5IiIr54Z4ybxg3yiueHqBQ/tracks"},{"img":"https://i.scdn.co/image/ab67706f00000003148da9e80483cbba600555b3","name":"Got Djent?","owner":"spotify","tracks_number":100,"tracks_url":"https://api.spotify.com/v1/playlists/37i9dQZF1DX6GRSnGELn7L/tracks"},{"img":"https://i.scdn.co/image/ab67706f00000003ef00cb9bd5134a47de36f12a","name":"Instrumental Madness","owner":"spotify","tracks_number":130,"tracks_url":"https://api.spotify.com/v1/playlists/37i9dQZF1DWUk47CLxI4Uo/tracks"},{"img":"https://i.scdn.co/image/ab67706c0000bebbc519e31c9c4f3d66127b24df","name":"Post-metal's Best Tracks","owner":"postrock.instrumental","tracks_number":50,"tracks_url":"https://api.spotify.com/v1/playlists/3GHBPKU7UdRzgYicknfIXc/tracks"},{"img":"https://i.scdn.co/image/ab67706c0000bebb9a1ef5004981c6ebedcc8be6","name":"Post Metal","owner":"laninia","tracks_number":145,"tracks_url":"https://api.spotify.com/v1/playlists/3YEI048SqZvPwemvpgiONj/tracks"},{"img":"https://i.scdn.co/image/ab67706f0000000390ce27bac306267787170ca5","name":"Prog Rock","owner":"spotify","tracks_number":75,"tracks_url":"https://api.spotify.com/v1/playlists/37i9dQZF1DWXgtgITTKvYl/tracks"},{"img":"https://i.scdn.co/image/ab67706f000000035c45833986e18c5989addbe5","name":"Progressive Metal","owner":"spotify","tracks_number":130,"tracks_url":"https://api.spotify.com/v1/playlists/37i9dQZF1DX5wgKYQVRARv/tracks"},{"img":"https://i.scdn.co/image/ab67706c0000bebb46656a98c9e4a31d8e8672b8","name":"Prog/Math/Metal/Djent","owner":"22w2crogiglp7va3mh5pc5odi","tracks_number":220,"tracks_url":"https://api.spotify.com/v1/playlists/3HfK25gBYUV1OD2S45KiCi/tracks"},{"img":"https://mosaic.scdn.co/640/ab67616d0000b2736b0cb4549fb833b27fdb70c4ab67616d0000b273907e7c77ece30f24a2c99e18ab67616d0000b2739c36bd7f5ec02c8af6c18cb8ab67616d0000b273aa281e3405d9d4e46ea9414a","name":"Prog/Math/Metal/General bangers","owner":"115071603","tracks_number":382,"tracks_url":"https://api.spotify.com/v1/playlists/0X1tlUL6P7bKSvlR5enSHq/tracks"},{"img":"https://mosaic.scdn.co/640/ab67616d0000b27333c96f83f6fcb4867a2394a4ab67616d0000b273766fa7c4c98099f2e9153923ab67616d0000b2739437379f069fd754c3d2bbeaab67616d0000b273b8120abdc4788c7afef8cdb5","name":"Progressive Rock","owner":"22nvw4ymqtfttav6tafzwnyzi","tracks_number":720,"tracks_url":"https://api.spotify.com/v1/playlists/00diRu0wMKH2YpTHLQjJ7F/tracks"},{"img":"https://i.scdn.co/image/ab67706f000000037053bbf08a9050c1ff39b8b0","name":"10s Metal Classics","owner":"spotify","tracks_number":120,"tracks_url":"https://api.spotify.com/v1/playlists/37i9dQZF1DWUnhhRs5u3TO/tracks"},{"img":"https://i.scdn.co/image/ab67706f0000000376ccf8d29b326acac28c8aa3","name":"Deep Dive - 00s Metal","owner":"spotify","tracks_number":150,"tracks_url":"https://api.spotify.com/v1/playlists/37i9dQZF1DWUrdml94k1Rt/tracks"},{"img":"https://i.scdn.co/image/ab67706f00000003e6c9c91044cbb61f7cd6a99a","name":"Epic & Melodic","owner":"spotify","tracks_number":80,"tracks_url":"https://api.spotify.com/v1/playlists/37i9dQZF1DX37bXS7EGI3f/tracks"},{"img":"https://mosaic.scdn.co/640/ab67616d0000b2730f6f6e7ea0dad5d3e99da987ab67616d0000b273461dbbf563c184b6efebbf7cab67616d0000b27395e61d19d37a4c0a34e6f952ab67616d0000b273c7d715d04d757fd703745a6b","name":"Leyendas 2019","owner":"1149117319","tracks_number":2801,"tracks_url":"https://api.spotify.com/v1/playlists/0JTPjSEZTvQ79JGTNUKkt4/tracks"},{"img":"https://i.scdn.co/image/ab67706f000000038fe71032c488f5bcee02fedf","name":"Metal Covers","owner":"spotify","tracks_number":75,"tracks_url":"https://api.spotify.com/v1/playlists/37i9dQZF1DWUJiNTfqDwyS/tracks"},{"img":"https://i.scdn.co/image/ab67706c0000bebbe2eab2682e2e14ce79ef64d2","name":"Polish Lithuanian Empire Folk Metal","owner":"slmuha","tracks_number":1897,"tracks_url":"https://api.spotify.com/v1/playlists/4Ejo3TTef5cPk5uzCioczd/tracks"},{"img":"https://mosaic.scdn.co/640/ab67616d0000b273012217969f1979b6f050068bab67616d0000b2733111df8989980239a5ebfaddab67616d0000b2737cba36fe491c113e89562cc6ab67616d0000b273c74508076e95a160cf40643f","name":"Power Metal","owner":"sakul9","tracks_number":390,"tracks_url":"https://api.spotify.com/v1/playlists/77Qj45GmNS6xo20FVCc6ci/tracks"},{"img":"https://i.scdn.co/image/ab67706c0000bebbf2bb85479ea01ffa7de4ebce","name":"The Sound of Lithuanian Metal","owner":"thesoundsofspotify","tracks_number":99,"tracks_url":"https://api.spotify.com/v1/playlists/5gQcpV3OAkC7q9EvDBditZ/tracks"},{"img":"https://i.scdn.co/image/ab67706f00000003183f2c61b6b52692698b46c7","name":"Salsa Nation","owner":"spotify","tracks_number":100,"tracks_url":"https://api.spotify.com/v1/playlists/37i9dQZF1DX4qKWGR9z0LI/tracks"},{"img":"https://mosaic.scdn.co/640/ab67616d0000b2738b02886da55459c302791820ab67616d0000b273e8e9816218d04471e07a7b98ab67616d0000b273f6bde804ea36842277429f83ab67616d0000b273f746090e6683d2bd5e2e2906","name":"2020 SALSA PURA","owner":"luispuchades-es","tracks_number":70,"tracks_url":"https://api.spotify.com/v1/playlists/6kuH8qWr4EJRpJrLURKTYT/tracks"}
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebba696cb014954236c0dcb73ae",
+    "name": "Djenty",
+    "owner": "bornofosiris",
+    "tracks_number": 136,
+    "tracks_url": "https://api.spotify.com/v1/playlists/5IiIr54Z4ybxg3yiueHqBQ/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706f00000003148da9e80483cbba600555b3",
+    "name": "Got Djent?",
+    "owner": "spotify",
+    "tracks_number": 100,
+    "tracks_url": "https://api.spotify.com/v1/playlists/37i9dQZF1DX6GRSnGELn7L/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706f00000003ef00cb9bd5134a47de36f12a",
+    "name": "Instrumental Madness",
+    "owner": "spotify",
+    "tracks_number": 130,
+    "tracks_url": "https://api.spotify.com/v1/playlists/37i9dQZF1DWUk47CLxI4Uo/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebbc519e31c9c4f3d66127b24df",
+    "name": "Post-metal's Best Tracks",
+    "owner": "postrock.instrumental",
+    "tracks_number": 50,
+    "tracks_url": "https://api.spotify.com/v1/playlists/3GHBPKU7UdRzgYicknfIXc/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebb9a1ef5004981c6ebedcc8be6",
+    "name": "Post Metal",
+    "owner": "laninia",
+    "tracks_number": 145,
+    "tracks_url": "https://api.spotify.com/v1/playlists/3YEI048SqZvPwemvpgiONj/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706f0000000390ce27bac306267787170ca5",
+    "name": "Prog Rock",
+    "owner": "spotify",
+    "tracks_number": 75,
+    "tracks_url": "https://api.spotify.com/v1/playlists/37i9dQZF1DWXgtgITTKvYl/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706f000000035c45833986e18c5989addbe5",
+    "name": "Progressive Metal",
+    "owner": "spotify",
+    "tracks_number": 130,
+    "tracks_url": "https://api.spotify.com/v1/playlists/37i9dQZF1DX5wgKYQVRARv/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebb46656a98c9e4a31d8e8672b8",
+    "name": "Prog/Math/Metal/Djent",
+    "owner": "22w2crogiglp7va3mh5pc5odi",
+    "tracks_number": 220,
+    "tracks_url": "https://api.spotify.com/v1/playlists/3HfK25gBYUV1OD2S45KiCi/tracks"
+  },
+  {
+    "img": "https://mosaic.scdn.co/640/ab67616d0000b2736b0cb4549fb833b27fdb70c4ab67616d0000b273907e7c77ece30f24a2c99e18ab67616d0000b2739c36bd7f5ec02c8af6c18cb8ab67616d0000b273aa281e3405d9d4e46ea9414a",
+    "name": "Prog/Math/Metal/General bangers",
+    "owner": "115071603",
+    "tracks_number": 382,
+    "tracks_url": "https://api.spotify.com/v1/playlists/0X1tlUL6P7bKSvlR5enSHq/tracks"
+  },
+  {
+    "img": "https://mosaic.scdn.co/640/ab67616d0000b27333c96f83f6fcb4867a2394a4ab67616d0000b273766fa7c4c98099f2e9153923ab67616d0000b2739437379f069fd754c3d2bbeaab67616d0000b273b8120abdc4788c7afef8cdb5",
+    "name": "Progressive Rock",
+    "owner": "22nvw4ymqtfttav6tafzwnyzi",
+    "tracks_number": 720,
+    "tracks_url": "https://api.spotify.com/v1/playlists/00diRu0wMKH2YpTHLQjJ7F/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706f000000037053bbf08a9050c1ff39b8b0",
+    "name": "10s Metal Classics",
+    "owner": "spotify",
+    "tracks_number": 120,
+    "tracks_url": "https://api.spotify.com/v1/playlists/37i9dQZF1DWUnhhRs5u3TO/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706f0000000376ccf8d29b326acac28c8aa3",
+    "name": "Deep Dive - 00s Metal",
+    "owner": "spotify",
+    "tracks_number": 150,
+    "tracks_url": "https://api.spotify.com/v1/playlists/37i9dQZF1DWUrdml94k1Rt/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706f00000003e6c9c91044cbb61f7cd6a99a",
+    "name": "Epic & Melodic",
+    "owner": "spotify",
+    "tracks_number": 80,
+    "tracks_url": "https://api.spotify.com/v1/playlists/37i9dQZF1DX37bXS7EGI3f/tracks"
+  },
+  {
+    "img": "https://mosaic.scdn.co/640/ab67616d0000b2730f6f6e7ea0dad5d3e99da987ab67616d0000b273461dbbf563c184b6efebbf7cab67616d0000b27395e61d19d37a4c0a34e6f952ab67616d0000b273c7d715d04d757fd703745a6b",
+    "name": "Leyendas 2019",
+    "owner": "1149117319",
+    "tracks_number": 2801,
+    "tracks_url": "https://api.spotify.com/v1/playlists/0JTPjSEZTvQ79JGTNUKkt4/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706f000000038fe71032c488f5bcee02fedf",
+    "name": "Metal Covers",
+    "owner": "spotify",
+    "tracks_number": 75,
+    "tracks_url": "https://api.spotify.com/v1/playlists/37i9dQZF1DWUJiNTfqDwyS/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebbe2eab2682e2e14ce79ef64d2",
+    "name": "Polish Lithuanian Empire Folk Metal",
+    "owner": "slmuha",
+    "tracks_number": 1897,
+    "tracks_url": "https://api.spotify.com/v1/playlists/4Ejo3TTef5cPk5uzCioczd/tracks"
+  },
+  {
+    "img": "https://mosaic.scdn.co/640/ab67616d0000b273012217969f1979b6f050068bab67616d0000b2733111df8989980239a5ebfaddab67616d0000b2737cba36fe491c113e89562cc6ab67616d0000b273c74508076e95a160cf40643f",
+    "name": "Power Metal",
+    "owner": "sakul9",
+    "tracks_number": 390,
+    "tracks_url": "https://api.spotify.com/v1/playlists/77Qj45GmNS6xo20FVCc6ci/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706c0000bebbf2bb85479ea01ffa7de4ebce",
+    "name": "The Sound of Lithuanian Metal",
+    "owner": "thesoundsofspotify",
+    "tracks_number": 99,
+    "tracks_url": "https://api.spotify.com/v1/playlists/5gQcpV3OAkC7q9EvDBditZ/tracks"
+  },
+  {
+    "img": "https://i.scdn.co/image/ab67706f00000003183f2c61b6b52692698b46c7",
+    "name": "Salsa Nation",
+    "owner": "spotify",
+    "tracks_number": 100,
+    "tracks_url": "https://api.spotify.com/v1/playlists/37i9dQZF1DX4qKWGR9z0LI/tracks"
+  },
+  {
+    "img": "https://mosaic.scdn.co/640/ab67616d0000b2738b02886da55459c302791820ab67616d0000b273e8e9816218d04471e07a7b98ab67616d0000b273f6bde804ea36842277429f83ab67616d0000b273f746090e6683d2bd5e2e2906",
+    "name": "2020 SALSA PURA",
+    "owner": "luispuchades-es",
+    "tracks_number": 70,
+    "tracks_url": "https://api.spotify.com/v1/playlists/6kuH8qWr4EJRpJrLURKTYT/tracks"
+  }
 ]
