@@ -1,8 +1,10 @@
 archivado/*
 desktop.ini
+*/apiKeys.js
 *.lnk
 *.log
 *.mid
 *.mp3
 *.pbix
 *.wav
+*/old_*/*

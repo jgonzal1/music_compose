@@ -1,9 +1,4 @@
-<button onClick="spotifyHandler.getMyPlaylists()">Get Playlists</button>
-<!--<div id="number_of_playlists"></div>
-<div id="my_playlists"></div>-->
-<div id="playlist_metadata" style="height:30vh;"></div>
-<div id="my_songs" style="height:65vh;"></div>
-<script src="js/keys.js"></script>
+<script src="js/apiKeys.js"></script>
 <script src="js/spotifyHandler.js"></script>
 <style>
   * { width: 96vw; }
@@ -13,3 +8,21 @@
     overflow-y:scroll;
   }
 </style>
+<!--
+  <button onClick="spotifyHandler.getToken()">
+    Get Token
+  </button>
+  TO GET MyPlaylists /me/ WITH FOLLOWED,
+  REQUEST BEARER IN
+  https://developer.spotify.com/console/
+  get-current-user-playlists/?limit=&offset=
+  AND DEFINE SCOPES
+-->
+  <button onClick="spotifyHandler.getMyPlaylists()">
+    Get Playlists
+  </button>
+<!---->
+<!--<div id="number_of_playlists"></div>
+<div id="my_playlists"></div>-->
+<div id="playlist_metadata" style="height:30vh;"></div>
+<div id="results" style="height:65vh;"></div>

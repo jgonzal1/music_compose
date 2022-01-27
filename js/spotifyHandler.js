@@ -1,4 +1,11 @@
-
+/*if (typeof(document) === "undefined") {
+  try {
+    // @ts-ignore
+    import { clientId, clientSecret, playlistsBearer } from "./apiKeys";
+  } catch(e) {
+    console.warn(e)
+  }
+}*/
 const playlist_ids = [
   "2Er6xZyUuBjJ0EampHFXAi" // neofolk, 5
   /*
@@ -243,31 +250,31 @@ function getSongsJSONPayload(jsonizedResult) {
 }
 
 const spotifyHandler = {
-  getToken: function() {
-    (function(callback) {
-      fetch('https://accounts.spotify.com/api/token', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-          'Authorization': 'Basic ' + btoa(clientId + ':' + clientSecret)
-        },
-        body: 'grant_type=client_credentials'
-      }).then(
-        result => result.json()
-      ).then(jsonizedResult => {
-        callback(jsonizedResult.access_token);
-      });
-    })(
-      cb => document.getElementById("playlist_metadata").innerText = cb
-    );
+  getToken: function(callback) {
+    fetch('https://accounts.spotify.com/api/token', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+        'Authorization': 'Basic ' + btoa(clientId + ':' + clientSecret)
+      },
+      body: 'grant_type=client_credentials'
+    }).then(
+      result => result.json()
+    ).then(jsonizedResult => {
+      document.getElementById("playlist_metadata").innerText =JSON.stringify(jsonizedResult);
+      callback(jsonizedResult.access_token);
+    });
   },
   getMyPlaylists: function() {
-    const iterations = 6;
+    const iterations = 7;
     let playlistPayload = [];
-    for(let k = 0; k < iterations; k++) {
+    for(let k = 6; k < iterations; k++) {
       setTimeout(function(){
+        console.log("Playlists Bearer: " + playlistsBearer);
         fetch(
-        'https://api.spotify.com/v1/users/darkjavier/playlists?offset='+String(40*k)+'&limit=40',
+        'https://api.spotify.com/v1/' +
+          'me/playlists?offset=' // users/darkjavier/pl...
+          + String(40*k) + '&limit=40',
         {
           method: 'GET',
           headers: {
@@ -281,7 +288,9 @@ const spotifyHandler = {
         )
         .then(
           function getPlaylistsJSONPayload(jsonizedResult) {
-            //document.getElementById("number_of_playlists").innerText = jsonizedResult.total;
+            console.log("Jsonized Result");
+            console.log(jsonizedResult);
+            document.getElementById("results").innerText = jsonizedResult.total;
             const playlistSetPayload = jsonizedResult.items.map(playlist => {
               return {
                 "img": playlist.images[0].url,
@@ -294,7 +303,7 @@ const spotifyHandler = {
             console.trace(playlistSetPayload);
             playlistPayload.push.apply(playlistPayload, playlistSetPayload);
             if(k===(iterations-1)) {
-              document.getElementById("my_songs").innerText = JSON.stringify(playlistPayload);
+              document.getElementById("results").innerText = JSON.stringify(playlistPayload);
             }
           }
         )
@@ -326,7 +335,7 @@ const spotifyHandler = {
             [playlist_metadata, track_set_payload] = getSongsJSONPayload(jsonizedResult);
             // playlists_metadata.push.apply(playlists_metadata, [playlist_metadata]);
             document.getElementById("playlist_metadata").innerText += JSON.stringify([playlist_metadata]) + "\n\n";
-            document.getElementById("my_songs").innerText += JSON.stringify(track_set_payload) + "\n\n";
+            document.getElementById("results").innerText += JSON.stringify(track_set_payload) + "\n\n";
           }
         )
       }, k*500);
@@ -359,7 +368,7 @@ const spotifyHandler = {
             [playlist_metadata, track_set_payload] = this.getSongsJSONPayload(jsonizedResult);
             // playlists_metadata.push.apply(playlists_metadata, [playlist_metadata]);
             document.getElementById("playlist_metadata").innerText += JSON.stringify([playlist_metadata]) + "\n\n";
-            document.getElementById("my_songs").innerText += JSON.stringify(track_set_payload) + "\n\n";
+            document.getElementById("results").innerText += JSON.stringify(track_set_payload) + "\n\n";
           }
         )
       }, k*500);
