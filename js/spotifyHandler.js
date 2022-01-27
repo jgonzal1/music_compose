@@ -243,19 +243,23 @@ function getSongsJSONPayload(jsonizedResult) {
 }
 
 const spotifyHandler = {
-  getToken: function(callback) {
-    fetch('https://accounts.spotify.com/api/token', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/x-www-form-urlencoded',
-        'Authorization': 'Basic ' + btoa(clientId + ':' + clientSecret)
-      },
-      body: 'grant_type=client_credentials'
-    }).then(
-      result => result.json()
-    ).then(jsonizedResult => {
-      callback(jsonizedResult.access_token);
-    });
+  getToken: function() {
+    (function(callback) {
+      fetch('https://accounts.spotify.com/api/token', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+          'Authorization': 'Basic ' + btoa(clientId + ':' + clientSecret)
+        },
+        body: 'grant_type=client_credentials'
+      }).then(
+        result => result.json()
+      ).then(jsonizedResult => {
+        callback(jsonizedResult.access_token);
+      });
+    })(
+      cb => document.getElementById("playlist_metadata").innerText = cb
+    );
   },
   getMyPlaylists: function() {
     const iterations = 6;
@@ -263,11 +267,11 @@ const spotifyHandler = {
     for(let k = 0; k < iterations; k++) {
       setTimeout(function(){
         fetch(
-        'https://api.spotify.com/v1/me/playlists?offset='+String(40*k)+'&limit=40',
+        'https://api.spotify.com/v1/users/darkjavier/playlists?offset='+String(40*k)+'&limit=40',
         {
           method: 'GET',
           headers: {
-            'Content-Type': 'application/x-www-form-urlencoded',
+            'Content-Type': 'application/json',
             'Authorization': 'Bearer ' + playlistsBearer
           }
         }
@@ -277,7 +281,7 @@ const spotifyHandler = {
         )
         .then(
           function getPlaylistsJSONPayload(jsonizedResult) {
-            document.getElementById("number_of_playlists").innerText = jsonizedResult.total;
+            //document.getElementById("number_of_playlists").innerText = jsonizedResult.total;
             const playlistSetPayload = jsonizedResult.items.map(playlist => {
               return {
                 "img": playlist.images[0].url,
@@ -290,7 +294,7 @@ const spotifyHandler = {
             console.trace(playlistSetPayload);
             playlistPayload.push.apply(playlistPayload, playlistSetPayload);
             if(k===(iterations-1)) {
-              document.getElementById("my_playlists").innerText = JSON.stringify(playlistPayload);
+              document.getElementById("my_songs").innerText = JSON.stringify(playlistPayload);
             }
           }
         )
