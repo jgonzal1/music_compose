@@ -330,9 +330,9 @@
   },
   {
     "img": "https://i.scdn.co/image/ab67706c0000bebbd45b9f9dbee8238daec13581",
-    "name": "samba",
+    "name": "BR/PT music + samba",
     "owner": "darkjavier",
-    "tracks_number": 2,
+    "tracks_number": 8,
     "tracks_url": "https://api.spotify.com/v1/playlists/4xRylvSqmE2GIzKCPpUINR/tracks"
   },
   {
@@ -546,13 +546,6 @@
     "tracks_url": "https://api.spotify.com/v1/playlists/4EceU0eUPVtT3pUjfEfGfi/tracks"
   },
   {
-    "img": "https://mosaic.scdn.co/640/ab67616d0000b2730bd5e7cce9765c2ef519424eab67616d0000b2738a7c39e93f39aa0a8c059f30ab67616d0000b2739bb818dd9e889292a79f4f1eab67616d0000b273cf5f9eaa0d3a164305c35b49",
-    "name": "BR/PT music",
-    "owner": "darkjavier",
-    "tracks_number": 7,
-    "tracks_url": "https://api.spotify.com/v1/playlists/2ef7s32Nw3IofvIxUDiCMD/tracks"
-  },
-  {
     "img": "https://mosaic.scdn.co/640/ab67616d0000b2732fd6a63f574450a8f928936aab67616d0000b2733863ea4ccc68fa2c3b9fc551ab67616d0000b273c8b35a7ebf805121d472ab3eab67616d0000b273d1bf711267281458ad505059",
     "name": "Danish music",
     "owner": "darkjavier",
@@ -561,9 +554,9 @@
   },
   {
     "img": "https://mosaic.scdn.co/640/ab67616d0000b2730b72229ae80c5a460d082185ab67616d0000b27342e8d214bcb46ac923dc9f1bab67616d0000b273a99428927feffa522f2f9225ab67616d0000b273e91b9569227e3149101b9532",
-    "name": "Eastern EU music",
+    "name": "eastern EU music",
     "owner": "darkjavier",
-    "tracks_number": 17,
+    "tracks_number": 18,
     "tracks_url": "https://api.spotify.com/v1/playlists/4HkyP64jhC3e9XB0nPtQM7/tracks"
   },
   {
@@ -610,7 +603,7 @@
   },
   {
     "img": "https://mosaic.scdn.co/640/ab67616d0000b27348b8acab14046e74808b0f9aab67616d0000b2736e4455654709f149298ee709ab67616d0000b273d0b76fde936e6840c362c7d4ab67616d0000b273f49011663ac55547a4dddbdc",
-    "name": "Lithuanian music",
+    "name": "lithuanian music",
     "owner": "darkjavier",
     "tracks_number": 10,
     "tracks_url": "https://api.spotify.com/v1/playlists/7gOlNz6Wna7OgwCuUg3zsu/tracks"
@@ -631,7 +624,7 @@
   },
   {
     "img": "https://mosaic.scdn.co/640/ab67616d0000b2736e53329d4c4af52c602517dcab67616d0000b2737362e4e584dd645012fbe1b5ab67616d0000b273e8c502112d5eb031e9540f8cab67616d0000b273ed002a511f3d9597a8f92292",
-    "name": "Oriental music",
+    "name": "oriental music",
     "owner": "darkjavier",
     "tracks_number": 10,
     "tracks_url": "https://api.spotify.com/v1/playlists/5dICky5qk3EPaccyJD9aJC/tracks"
