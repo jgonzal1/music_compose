@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', (domLoaded) => {
-    createjs.Sound.registerSound("test.mp3", "helicopter");
+    createjs.Sound.registerSound("../data/test.mp3", "helicopter");
 });
 
 function playSound() {
