@@ -266,14 +266,14 @@ const spotifyHandler = {
     });
   },
   getMyPlaylists: function() {
-    const iterations = 7;
+    const iterations = 15;
     let playlistPayload = [];
-    for(let k = 6; k < iterations; k++) {
+    for(let k = 0; k < iterations; k++) {
       setTimeout(function(){
         console.log("Playlists Bearer: " + playlistsBearer);
         fetch(
         'https://api.spotify.com/v1/' +
-          'me/playlists?offset=' // users/darkjavier/pl...
+          'users/darkjavier/playlists?offset=' // users/darkjavier/pl... me/pl...
           + String(40*k) + '&limit=40',
         {
           method: 'GET',
@@ -293,7 +293,7 @@ const spotifyHandler = {
             document.getElementById("results").innerText = jsonizedResult.total;
             const playlistSetPayload = jsonizedResult.items.map(playlist => {
               return {
-                "img": playlist.images[0].url,
+                "img": playlist?.images?.[0]?.url??"",
                 "name": playlist.name,
                 "owner": playlist.owner.id,
                 "tracks_number": playlist.tracks.total,

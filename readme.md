@@ -66,16 +66,17 @@ This is an example of how to list things you need to use the software and how to
 
 1. [Clone the repo](https://github.com/jgonzal1/elocasodelflogisto.git)
 
-2. Open index.html in you browser
+2. Open html/djaMusicGenerator.html in you browser
 
-> start index.html
+> start html/djaMusicGenerator.html
 
 <!---->
 ## 1.3. Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Open html/djaMusicGenerator.html in you browser
 
-_For more examples, please refer to the [Documentation](https://github.com/jgonzal1/elocasodelflogisto)_
+> start html/djaMusicGenerator.html
+
 <!---->
 ## 1.4. Roadmap
 
