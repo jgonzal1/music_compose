@@ -718,10 +718,10 @@ var MidiPlayer = (function () {
 
 
     _createClass(Player, [{
-      key: "loadFile",
-      value: function loadFile(path) {
+      key: "loadMidiFile",
+      value: function loadMidiFile(path) {
         {
-          throw 'loadFile is only supported on Node.js';
+          throw 'loadMidiFile is only supported on Node.js';
         }
       }
       /**

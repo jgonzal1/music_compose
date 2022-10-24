@@ -1,5 +1,5 @@
 var MidiPlayer = MidiPlayer;
-var loadFile, loadDataUri, Player;
+var loadMidiFile, loadDataUri, Player;
 var AudioContext = window.AudioContext || window.webkitAudioContext || false; 
 var ac = new AudioContext || new webkitAudioContext;
 var eventsDiv = document.getElementById('events');
@@ -20,17 +20,17 @@ var changeTempo = function(tempo) {
 
 var play = function() {
 	Player.play();
-	document.getElementById('play-button').innerHTML = 'Pause';
+	document.getElementById('ambientMusicHandlerButton').innerHTML = 'Pause';
 }
 
 var pause = function() {
 	Player.pause();
-	document.getElementById('play-button').innerHTML = 'Play';
+	document.getElementById('ambientMusicHandlerButton').innerHTML = 'Play';
 }
 
 var stop = function() {
 	Player.stop();
-	document.getElementById('play-button').innerHTML = 'Play';
+	document.getElementById('ambientMusicHandlerButton').innerHTML = 'Play';
 }
 
 var buildTracksHtml = function() {
@@ -50,7 +50,7 @@ Soundfont.instrument(ac, 'https://raw.githubusercontent.com/gleitz/midi-js-sound
 	document.getElementById('loading').style.display = 'none';
 	document.getElementById('select-file').style.display = 'block';
 
-	loadFile = function() {
+	loadMidiFile = function() {
 		var file    = document.querySelector('input[type=file]').files[0];
 		var reader  = new FileReader();
 		if (file) reader.readAsArrayBuffer(file);
@@ -71,7 +71,7 @@ Soundfont.instrument(ac, 'https://raw.githubusercontent.com/gleitz/midi-js-sound
 
 			Player.loadArrayBuffer(reader.result);
 			
-			document.getElementById('play-button').removeAttribute('disabled');
+			document.getElementById('ambientMusicHandlerButton').removeAttribute('disabled');
 
 			//buildTracksHtml();
 			play();
@@ -93,7 +93,7 @@ Soundfont.instrument(ac, 'https://raw.githubusercontent.com/gleitz/midi-js-sound
 
 		Player.loadDataUri(dataUri);
 
-		document.getElementById('play-button').removeAttribute('disabled');
+		document.getElementById('ambientMusicHandlerButton').removeAttribute('disabled');
 
 		//buildTracksHtml();
 		//play();
